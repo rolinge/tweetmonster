@@ -10,5 +10,5 @@ client = tweepy.Client(consumer_key=config.API_Key,
 post = "I can't wait to send more tweets with the API!"
 
 # send tweet with client.create_tweet method and text as argument. Save the result in a variable called response
-response = client.create_tweet(text=tweet)
+response = client.create_tweet(text=post)
 print(response)
